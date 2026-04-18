@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TuteDude | Learn Smarter</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to <mark>TuteDude</mark></h1>
+        <p>Your <strong>premier destination</strong> for <em>interactive learning</em>.</p>
+        <nav>
+            <a href="#about">About</a> | <a href="#menu">Menu</a> | 
+            <a href="#trivia">Trivia</a> | <a href="#feedback">Feedback</a>
+        </nav>
+        <figure>
+            <img src="hero.jpg" alt="Students learning" width="500">
+            <figcaption>Empowering students through technology.</figcaption>
+        </figure>
+    </header>
+
+    <main>
+        <section id="about">
+            <article>
+                <h2>About Us</h2>
+                <p>TuteDude was founded in <time datetime="2020-01-01">2020</time>. We specialize in <abbr title="Computer Science">CS</abbr> education. <strong>Quality is our priority.</strong></p>
+                <blockquote>"Learning is the only thing the mind never exhausts." <cite>- Leonardo da Vinci</cite></blockquote>
+            </article>
+        </section>
+
+        <section id="menu">
+            <h2>Course Menu</h2>
+            <table border="1">
+                <thead><tr><th>Course</th><th>Duration</th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development
+                            <table border="1">
+                                <tr><td>Modules: HTML, CSS, JS</td></tr>
+                            </table>
+                        </td>
+                        <td>12 Weeks</td>
+                    </tr>
+                </tbody>
+                <tfoot><tr><td colspan="2">All courses include certification.</td></tr></tfoot>
+            </table>
+        </section>
+
+        <section id="trivia">
+            <aside>
+                <details>
+                    <summary>Did you know?</summary>
+                    <p>HTML was created by Tim Berners-Lee in 1991!</p>
+                </details>
+            </aside>
+        </section>
+
+        <section id="extras">
+            <h2>Extras</h2>
+            <video controls width="300"><source src="demo.mp4" type="video/mp4"></video>
+            <audio controls><source src="intro.mp3" type="audio/mpeg"></audio>
+        </section>
+
+        <section id="feedback">
+            <form action="/submit" method="post">
+                <fieldset>
+                    <legend>User Feedback</legend>
+                    <label>Name: <input type="text" name="name"></label><br>
+                    <label>Email: <input type="email" name="email"></label><br>
+                    <label>Rating: 
+                        <select name="rating">
+                            <option value="5">Excellent</option>
+                            <option value="1">Poor</option>
+                        </select>
+                    </label><br>
+                    <textarea name="comments" placeholder="Your thoughts..."></textarea><br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address>Contact us at: support@tutedude.com</address>
+        <p>&copy; <time datetime="2026">2026</time> TuteDude Learning.</p>
+    </footer>
+
+</body>
+</html>
